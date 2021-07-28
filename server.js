@@ -8,7 +8,7 @@ const { response } = require('express');
 const db = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'postgresql-curved-88642',
       user : 'postgres',
       password : 'nikola',
       database : 'to-do-list'
